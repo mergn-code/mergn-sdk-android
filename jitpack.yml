@@ -1,3 +1,3 @@
 install: 
-  - FILE="-Dfile=MERGN_SDK_KOTLIN_FLUTTER_3.5.2.aar" 
+  - FILE="-Dfile=MERGN_SDK_KOTLIN_FLUTTER_3.5.3.aar" 
   - mvn install:install-file $FILE -DgroupId=com.mergn.test -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
